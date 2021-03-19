@@ -4,7 +4,7 @@ node_js: '12.20.1'
 
 # Script that is run before the script phase
 before_script:
-- npm run build-storybook
+- npm run build-storybook1
 
 # Deployment information
 deploy:
