@@ -1,10 +1,10 @@
 # Tells Travis we're running on a Node environment
 language: 'node_js'
-node_js: '8'
+node_js: '12.20.1'
 
 # Script that is run before the script phase
 before_script:
-- npm install; npm run build-storybook
+- npm run build-storybook
 
 # Deployment information
 deploy:
