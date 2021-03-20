@@ -4,7 +4,7 @@ node_js: '12.20.1'
 
 # Script that is run before the script phase
 before_script:
-- npm run build-storybook1
+- npm run deploy-storybook -- --ci --host-token-env-variable=GITHUB_TOKEN
 
 # Deployment information
 deploy:
